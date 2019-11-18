@@ -13,3 +13,10 @@
 #slider{
     width: 100%;
 }
+#legnth{
+    display: inline-block;
+    width: 100px;
+}
+.previous_passwords{
+    margin-bottom: 20px;
+}

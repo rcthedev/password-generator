@@ -17,8 +17,24 @@ function generate(){
    document.getElementById("display").value= password;
 
    //add password to previously generated passwords
-   document.getElementById("LastPassword").innerHTML += password + "<br />";s
-    function newFunction() {
-        return document.getElementById("slider").values;
+    document.getElementById("LastPassword").innerHTML += password + "<br />"
+
+       
+    
+}
+
+//set default legnth display of 25
+document.getElementById("legnth").innerHTML= "Legnth 25";
+
+document.getElementById("slider").oninput= function(){
+
+    if (document.getElementById("slider").value > 0) {
+
+        document.getElementById("legnth").innerHTML= "legnth:" + document.getElementById("slider").value;
+         
+    }
+   else{
+        document.getElementById("legnth").innerHTML= "legnth: 1";
+        
     }
 }
