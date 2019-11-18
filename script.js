@@ -38,3 +38,11 @@ document.getElementById("slider").oninput= function(){
         
     }
 }
+//function to copy to clipboard
+function copyPassword(){
+    document.getElementById("display").select();
+
+    document.execCommand("copy");
+
+    alert("It has been copied");
+}
